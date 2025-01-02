@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "simplekeybinds_core",
+  "version": "1.0.0",
+  "name": "Simple Keybinds Core",
+  "description": "The main keybindings registration and initialization for the Simple Keybinds mod.",
+  "authors": [
+    "Dillon8775"
+  ],
+  "contact": {
+    "homepage": "https://sites.google.com/view/dillon8775",
+    "sources": "https://github.com/Dillon8775/Simple-Keybinds-Core"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/simplekeybinds_core/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.dillon.simplekeybinds.core.SimpleKeybindsCore"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": ">=1.16.5",
+    "java": ">=8"
+  }
+}
