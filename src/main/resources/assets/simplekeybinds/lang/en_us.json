@@ -7,6 +7,8 @@
   "simplekeybinds.pause_without_menu": "Pause Without Menu",
   "simplekeybinds.reload_chunks": "Reload Chunks",
   "simplekeybinds.show_advanced_tooltips": "Show Advanced Tooltips",
+  "simplekeybinds.toggle_debug_menu": "Toggle Debug Menu",
+  "simplekeybinds.toggle_hud": "Toggle HUD",
   "simplekeybinds.toggle_chunk_borders": "Toggle Chunk Borders",
   "simplekeybinds.toggle_fog": "Toggle Fog",
   "simplekeybinds.toggle_fullbright": "Toggle Fullbright",
@@ -16,6 +18,10 @@
   "simplekeybinds.fog.off": "Fog: off",
   "simplekeybinds.fullbright.on": "Fullbright: on",
   "simplekeybinds.fullbright.off": "Fullbright: off",
+  "simplekeybinds.debug_menu.on": "Debug menu: on",
+  "simplekeybinds.debug_menu.off": "Debug menu: off",
+  "simplekeybinds.hud.on": "HUD: on",
+  "simplekeybinds.hud.off": "HUD: off",
   "simplekeybinds.brightness_error": "Brightness is already at min/max value.",
 
   "simplekeybinds.speedrunner_mod_loaded_keybindings": "The Speedrunner Mod is loaded, use those keybindings instead."
