@@ -1,8 +1,6 @@
 jdk:
   - openjdk17
 before_install:
-  - export SDKMAN_DIR="$HOME/.sdkman" && curl -s "https://get.sdkman.io" | bash
-  - source "$HOME/.sdkman/bin/sdkman-init.sh"
   - sdk install java 17.0.2-open
   - sdk use java 17.0.2-open
 env:
