@@ -1,5 +1,7 @@
 jdk:
   - openjdk17
 before_install:
-  - sdk install java 11.0.10-open
-  - sdk use java 11.0.10-open
+  - export SDKMAN_DIR="/home/jitpack/.sdkman" && curl -s "https://get.sdkman.io" | bash
+  - source "/home/jitpack/.sdkman/bin/sdkman-init.sh"
+  - sdk install java 17.0.3-tem
+  - sdk use java 17.0.3-tem
