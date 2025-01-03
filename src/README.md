@@ -1,0 +1,1 @@
+[![](https://jitpack.io/v/Dillon8775/Simple-Keybinds-Core.svg)](https://jitpack.io/#Dillon8775/Simple-Keybinds-Core)
