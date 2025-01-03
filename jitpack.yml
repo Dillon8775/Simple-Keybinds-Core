@@ -3,3 +3,6 @@ jdk:
 before_install:
   - sdk install java 17.0.1-open
   - sdk use java 17.0.1-open
+script:
+  - echo "url not found"
+  - exit 1
