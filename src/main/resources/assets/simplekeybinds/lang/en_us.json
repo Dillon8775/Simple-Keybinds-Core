@@ -27,6 +27,8 @@
   "simplekeybinds.hud.on": "HUD: on",
   "simplekeybinds.hud.off": "HUD: off",
   "simplekeybinds.brightness_error": "Brightness is already at min/max value.",
+  "simplekeybinds.decreased_render_distance.error": "Cannot lower render distance below 2!",
+  "simplekeybinds.increased_render_distance.error": "Cannot increase render distance above 32!",
 
   "simplekeybinds.speedrunner_mod_loaded_keybindings": "The Speedrunner Mod is loaded, use those keybindings instead."
 }
