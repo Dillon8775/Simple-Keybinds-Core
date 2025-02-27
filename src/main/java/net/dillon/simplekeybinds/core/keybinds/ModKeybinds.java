@@ -15,6 +15,8 @@ public class ModKeybinds {
     public static final KeyBinding CLEAR_CHAT = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.clear_chat", InputUtil.UNKNOWN_KEY.getCode(), MOD_KEYBINDS));
     public static final KeyBinding DECREASE_BRIGHTNESS = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.decrease_brightness", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_J, MOD_KEYBINDS));
     public static final KeyBinding INCREASE_BRIGHTNESS = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.increase_brightness", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_I, MOD_KEYBINDS));
+    public static final KeyBinding DECREASE_RENDER_DISTANCE = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.decrease_render_distance", InputUtil.UNKNOWN_KEY.getCode(), MOD_KEYBINDS));
+    public static final KeyBinding INCREASE_RENDER_DISTANCE = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.increase_render_distance", InputUtil.UNKNOWN_KEY.getCode(), MOD_KEYBINDS));
     public static final KeyBinding PAUSE_WITHOUT_MENU = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.pause_without_menu", InputUtil.UNKNOWN_KEY.getCode(), MOD_KEYBINDS));
     public static final KeyBinding RELOAD_CHUNKS = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.reload_chunks", InputUtil.UNKNOWN_KEY.getCode(), MOD_KEYBINDS));
     public static final KeyBinding SHOW_ADVANCED_TOOLTIPS = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.show_advanced_tooltips", InputUtil.UNKNOWN_KEY.getCode(), MOD_KEYBINDS));
