@@ -12,7 +12,14 @@ import org.lwjgl.glfw.GLFW;
 public class ModKeybinds {
     private static final String MOD_KEYBINDS = "simplekeybinds.keybinds";
 
+    /**
+     * testing
+     */
     public static final KeyBinding CLEAR_CHAT = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.clear_chat", InputUtil.UNKNOWN_KEY.getCode(), MOD_KEYBINDS));
+
+    /**
+     * testing
+     */
     public static final KeyBinding DECREASE_BRIGHTNESS = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.decrease_brightness", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_J, MOD_KEYBINDS));
     public static final KeyBinding INCREASE_BRIGHTNESS = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.increase_brightness", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_I, MOD_KEYBINDS));
     public static final KeyBinding DECREASE_RENDER_DISTANCE = KeyBindingHelper.registerKeyBinding(new KeyBinding("simplekeybinds.decrease_render_distance", InputUtil.UNKNOWN_KEY.getCode(), MOD_KEYBINDS));
