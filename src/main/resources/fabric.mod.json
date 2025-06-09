@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "simplekeybinds_core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Simple Keybinds Core",
   "description": "The main keybindings registration and initialization for the Simple Keybinds mod.",
   "authors": [
     "Dillon8775"
   ],
   "contact": {
-    "homepage": "https://sites.google.com/view/dillon8775",
+    "homepage": "https://modrinth.com/mod/simple-keybinds",
     "sources": "https://github.com/Dillon8775/Simple-Keybinds-Core"
   },
-  "license": "CC0-1.0",
+  "license": "All rights reserved.",
   "icon": "assets/simplekeybinds_core/icon.png",
   "environment": "*",
   "entrypoints": {
