@@ -51,7 +51,10 @@ jar {
 publishing {
 	publications {
 		create("mavenJava", MavenPublication) {
+			groupId = project.group
 			artifactId = project.archives_base_name
+			version = project.version
+
 			from components.java
 		}
 	}
